@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="<?= site_url(); ?>asset/select2-4.0.6-rc.1/dist/css/select2.min.css">
         <form action="#" method="POST">
               <div class="form-group">
                 <label>Provinsi:</label>
@@ -59,8 +59,8 @@
                 </div>
                 <button type="submit" class="btn btn-success btn-block">Submit</button>
             </form>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/i18n/id.min.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+<script src="<?= site_url(); ?>asset/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>  
+<script src="<?= site_url(); ?>asset/select2-4.0.6-rc.1/dist/js/i18n/id.js"></script>
 <script>
 $( document ).ready(function() {
 
